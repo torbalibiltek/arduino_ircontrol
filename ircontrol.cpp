@@ -14,5 +14,5 @@ void loop() {
       Serial.println(oku,HEX); 
     IrReceiver.resume(); 
   }
-  
+  delay(200);
 }
